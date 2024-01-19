@@ -58,6 +58,9 @@ export enum DAY_TYPE {
   WORKDAY = 'workday',
 }
 
+/**
+ * 节日标记
+ */
 export const holidays = new Map([
   ['2024-01-01', HOLIDAY.NEW_YEARS_DAY],
   ['2024-02-10', HOLIDAY.SPRING_FESTIVAL],
@@ -68,6 +71,9 @@ export const holidays = new Map([
   ['2024-10-01', HOLIDAY.NATIONAL_DAY],
 ]);
 
+/**
+ * 休假标记
+ */
 export const restDays = new Map([
   ['2023-12-30', HOLIDAY.NEW_YEARS_DAY],
   ['2023-12-31', HOLIDAY.NEW_YEARS_DAY],
@@ -96,6 +102,9 @@ export const restDays = new Map([
   ['2024-10-07', HOLIDAY.NATIONAL_DAY],
 ]);
 
+/**
+ * 工作日标记
+ */
 export const workdays = new Map([
   ['2024-02-04', HOLIDAY.SPRING_FESTIVAL],
   ['2024-02-18', HOLIDAY.SPRING_FESTIVAL],
